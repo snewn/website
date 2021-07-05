@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  text-align: center;
+  color: #40514E font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #5E8B7E;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  font-weight: normal;
+}
+
+/*
+px = static units
+em/M = relative
+rem = root em i.e. ignore all parent setting ***best practice, less prone to error***
+1em or 1M is 16px(100$)
+90px = 5.625em or 562.5%
+BUT if use "em" or "%", child font-size is added on top of parent font-size*/
+h2 {
+  color: #5E8B7E;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #5E8B7E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border-style: dotted none none;
+  border-top-width: 7px;
+  border-color: #EAF6F6;
+  margin: 100px auto;
+  width: 12.5%;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: #5E8B7E;
+  font-family: 'Montserrat', sans-serif;
+  /*margin: 10px 20px;*/
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.contact-msg {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.icons-credit {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.45rem;
+}
+
+.copyright {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.75rem;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 40px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.mountain {
+  padding-top: 60px;
+}
+
+/* parent is section1*/
+.section1 {
+  background-color: #DFEEEA;
+  padding-top: 100px;
+  margin-bottom: 0;
+}
+
+.section2 {
+  margin: 100px 0;
+}
+
+.section3 {
+  background-color: #DFEEEA;
+  padding: 50px 0 20px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+/* only use float when you want to wrap text, not for positioning */
+.coding-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.brain-img {
+  width: 27%;
+  float: right;
+  margin-left: 30px;
+}
+
+.button {
+  background: #B9E1D6;
+  background-image: -webkit-linear-gradient(top, #B9E1D6, #5E8B7E);
+  background-image: -moz-linear-gradient(top, #B9E1D6, #5E8B7E);
+  background-image: -ms-linear-gradient(top, #B9E1D6, #5E8B7E);
+  background-image: -o-linear-gradient(top, #B9E1D6, #5E8B7E);
+  background-image: -webkit-gradient(to bottom, #B9E1D6, #5E8B7E);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  height: 20px;
+  line-height: 20px;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  width: 185px;
+  font-size: 17px;
+  padding: 12px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button:hover {
+  border: solid #9AC6BA 1px;
+  background: #9AC6BA;
+  background-image: -webkit-linear-gradient(top, #9AC6BA, #9AC6BA);
+  background-image: -moz-linear-gradient(top, #9AC6BA, #9AC6BA);
+  background-image: -ms-linear-gradient(top, #9AC6BA, #9AC6BA);
+  background-image: -o-linear-gradient(top, #9AC6BA, #9AC6BA);
+  background-image: -webkit-gradient(to bottom, #9AC6BA, #9AC6BA);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
