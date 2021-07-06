@@ -119,6 +119,12 @@ a:hover {
   text-align: left;
 }
 
+.profile {
+    width: 50%;
+    margin: 100px auto;
+  }
+}
+
 /* only use float when you want to wrap text, not for positioning */
 .coding-img {
   width: 25%;
