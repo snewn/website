@@ -1,7 +1,8 @@
 body {
   margin: 0;
   text-align: center;
-  color: #40514E font-family: 'Merriweather', serif;
+  color: #40514E;
+  font-family: 'Merriweather', serif;
 }
 
 h1 {
@@ -59,14 +60,14 @@ a:hover {
   text-decoration: underline;
 }
 
-.contact-msg {
-  width: 40%;
-  margin: 40px auto 60px;
+.intro-msg {
+  width: 50%;
+  margin: auto;
 }
 
-.intro {
-  width: 30%;
-  margin: auto;
+.contact-msg {
+  width: 50%;
+  margin: 40px auto 60px;
 }
 
 .icons-credit {
@@ -122,13 +123,15 @@ a:hover {
 .coding-img {
   width: 25%;
   float: left;
-  margin-right: 30px;
+  margin-right: 40px;
+  margin-bottom: 30px;
 }
 
 .brain-img {
   width: 27%;
   float: right;
   margin-left: 30px;
+  margin-bottom: 30px;
 }
 
 .button {
@@ -166,4 +169,8 @@ a:hover {
   -moz-border-radius: 20px;
   border-radius: 20px;
   text-decoration: none;
+}
+
+.content {
+  margin: 100px 100px;
 }
