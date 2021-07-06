@@ -121,8 +121,7 @@ a:hover {
 
 .profile {
     width: 50%;
-    margin: 100px auto;
-  }
+    margin: 0 auto;
 }
 
 /* only use float when you want to wrap text, not for positioning */
